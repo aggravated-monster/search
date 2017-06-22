@@ -50,7 +50,6 @@ class Board:
         if to >= 0:
             moves.append((swap(self.position, i, to), 'Up'))
 
-
         return moves
 
 class Node:
