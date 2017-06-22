@@ -89,7 +89,6 @@ class Node:
             node = node.parent
         return p
 
-
     def expand(self):
 
         children = []
