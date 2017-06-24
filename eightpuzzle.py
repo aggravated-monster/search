@@ -4,7 +4,7 @@ import time
 class Board:
     """
     A class representing a 3*3 '8-puzzle'.
-    - 'position' is a string containing the numbers 0..9
+    'position' is a string containing the numbers 0..9
        e.g. 123406758
     """
     def __init__(self, position):
