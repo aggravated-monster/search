@@ -112,7 +112,6 @@ class Solver:
         """Convert startPosition to a String"""
         self.startposition = "".join(str(s) for s in startposition)
 
-
     def bfs(self):
         """
         Perform breadth first search and return a path
